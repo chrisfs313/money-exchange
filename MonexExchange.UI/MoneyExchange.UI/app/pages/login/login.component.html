@@ -1,0 +1,27 @@
+﻿
+<div class="row row-space">
+    <div class="col-sm-2">
+        <label>E-Mail:</label>
+    </div>
+    <div class="col-sm-4">
+        <input type="text"
+               [(ngModel)]="userVM.email">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-2">
+        <label>Password:</label>
+    </div>
+    <div class="col-sm-4">
+        <input type="password"
+               [(ngModel)]="userVM.password">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-2">
+        <button (click)="login()">Login</button>
+    </div>
+</div>
+
